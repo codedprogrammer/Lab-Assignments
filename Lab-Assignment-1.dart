@@ -1,20 +1,12 @@
 void main() {
-  
-  int finalAnswer = getAnswer(9, 20);
-  print(finalAnswer);
-  
-}
-
-int getAnswer(int num1, int num2){
-  int checker = 100;
+  int num1 = 15;
+  int num2 = 55;
   int answer = num1 + num2;
-    if(answer < checker){
-      print("true");
-      return answer;
-      
-    }else{
-      print("false");
-      return answer;
-      
-    }
+  
+  bool cheaker = false;
+  
+  if(answer < 100){
+    cheaker = true;
+  }
+  print("$cheaker -> $num1 + $num2 = $answer");
   }
