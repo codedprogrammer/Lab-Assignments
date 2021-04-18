@@ -1,0 +1,20 @@
+void main() {
+  
+  int finalAnswer = getAnswer(9, 20);
+  print(finalAnswer);
+  
+}
+
+int getAnswer(int num1, int num2){
+  int checker = 100;
+  int answer = num1 + num2;
+    if(answer < checker){
+      print("true");
+      return answer;
+      
+    }else{
+      print("false");
+      return answer;
+      
+    }
+  }
